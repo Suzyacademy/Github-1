@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    background-color: #DDDDDD;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.flex li {
+    flex: 2;
+    border: 2px solid grey;
+    padding: 15px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.mainFlex {
+    display: flex;
+    padding: 20px;
+}
+
+.leftSide {
+    background: url("../img/showcase.jpg") center/cover;
+    height: 80vh;
+    width: 70%;
+}
+
+.text1 {
+    color: ivory;
+    padding-top: 200px;
+    padding-left: 30px;
+}
+
+.text1 a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+.rightSide {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+
+}
+
+.box {
+    border: 1px solid;
+    margin: 0px 20px;
+    text-align: center;
+    height: 200px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .flex{
+    display: flex;
+    flex-direction: column;
+    /* align-items: stretch;
+    background-color: green;
+    width:100%;
+    height: 180px; */
+}
+
+/* header ,footer{
+    background-color:green;
+    height: 20vh;
+}
+.childflex{
+    display: flex;
+    /* height: 400px; */
+/* }
+article{
+    flex: 2;
+   background-color:red;
+}
+nav{
+    flex: 4;
+    background-color: white;
+}
+aside{
+    flex: 2;
+    background-color:blue;
+}
+.childflex{
+    min-height: calc(100vh - 40vh);
+}
+@media (max-width:500px){
+    .childflex{
+        display: flex;
+        flex-direction: column; */
