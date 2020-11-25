@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: red ;
+    background-color: grey;
     width: 90%;
     margin: 0 auto;
 }
@@ -10,6 +10,8 @@ body {
     list-style: none;
     flex-direction: row;
     padding: 0px;
+    flex-wrap: wrap;
+
 }
 
 .flex li {
@@ -18,14 +20,19 @@ body {
     padding: 15px;
     margin: 0 20px;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .mainFlex {
     display: flex;
     padding: 20px;
+    flex-wrap: wrap;
+
 }
 
 .leftSide {
+    display: flex;
+    flex-wrap: wrap;
     background: url("../img/showcase.jpg") center/cover;
     height: 80vh;
     width: 70%;
@@ -49,6 +56,7 @@ body {
     display: flex;
     flex: 2;
     flex-direction: column;
+    flex-wrap: wrap;
 
 }
 
@@ -57,7 +65,7 @@ body {
     margin: 0px 20px;
     text-align: center;
     height: 200px;
-    
+
 }
 
 
